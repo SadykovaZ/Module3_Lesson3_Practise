@@ -346,11 +346,11 @@ start:
 			printf("-----------------------------------\n");
 
 			printf("Итого правильных ");
-			SetConsoleTextAttribute(hConsole, 4);
+			SetConsoleTextAttribute(hConsole, 2);
 			printf("%d", countTrue);
 			SetConsoleTextAttribute(hConsole, 15);
 			printf(", неправильных ");
-			SetConsoleTextAttribute(hConsole, 2);
+			SetConsoleTextAttribute(hConsole, 12);
 			printf("%d\n", countFalse);
 			SetConsoleTextAttribute(hConsole, 15);
 		}
